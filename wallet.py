@@ -19,45 +19,42 @@ import math
 import tweepy
 
 # 텔레그램 binanaceBot Api
-TG_token = '1924275825:AAG1Js8U06ZKDrW7MTKtoTeV7hUrtAITzxs'
+TG_token = 
 token = TG_token
-id = "1763695682"
+id = 
 bot = telegram.Bot(token)
 
 # 텔레그램 binanceBuyBot Api
-TG_token2 ='2025545402:AAGqoczaxKgeBpcfp1T_ugOqTKEbHXuUeEs'
+TG_token2 =
 token2 = TG_token2
-id2 = "1763695682"
+id2 =
 buy_bot = telegram.Bot(token2)
 
 # upbit Api
-access_key = 'mg0FACc0jyxMa4sesJEP20s1E9TPtvjQhVSE1FNx'
-secret_key = 'IfjzKJhdx8ldpXBTVbJuPiSPZJuWLahkEU67yoZl'
+access_key = 
+secret_key = 
 server_url = 'https://api.upbit.com'
 
 upbit = pyupbit.Upbit(access_key, secret_key)
 
 # bithumb Api
-bithumb_connect_key = "aac69ee0423333155de584dcfa86a84d"
-bithumb_secret_key = "3f06d8ededa19a322b178dd5bc9d88cf"
+bithumb_connect_key = 
+bithumb_secret_key = 
 
-# 빗썸 aws용 api
-# "ed676ddb1cae4b6a0521d2ad4d6af858"
-# "b54575a61568f87e49436923fbf0620d"
 
 
 bithumb = pybithumb.Bithumb(bithumb_connect_key, bithumb_secret_key)
 
 # binance (현물) Api
-binance = ccxt.binance(config = {"apiKey":"mIrr0hNo2ojTgISX3lOKqqBtTSFUd5svN7hKs5rpMZdaGcabhDXpsvBgD3mAYD7G", "secret":"IUcRpRUjOD7a6EXv1vojqRAgtPk0ukIEfSxjYwKEw87lKvrfRebuWwFWM8c0EunU"})
+binance = ccxt.binance()
 
 # binance (현물) Api
 
 # huobi Api
-huobi = ccxt.huobipro({"apiKey":"07d31cc9-29f9d831-1qdmpe4rty-017e0", "secret":"eb9b45d9-e7fea5c4-034c5ad3-91801"})
+huobi = ccxt.huobipro()
 
 # Gate io Api
-gate_io = ccxt.gateio({"apikey":"1CD894AF-2AD7-45A2-8935-03BBCC5D3F43","secret":"ed8d052ab37a22787dd6d321e2276009763cf5cde4b25c3114a6f59817569dea"})
+gate_io = ccxt.gateio()
 
 
 # coin List #
